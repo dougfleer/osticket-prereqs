@@ -5,51 +5,34 @@
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
+- **Microsoft Azure**: Demonstrating cloud platform proficiency with Virtual Machines and resource management.
+- **Remote Desktop**: Leveraging remote tools for efficient system access and management.
+- **Internet Information Services (IIS)**: Configuring and optimizing web servers for application hosting.
 
-<h2>Operating Systems Used </h2>
+<h2>Operating Systems Used</h2>
 
-- Windows 10</b> (21H2)
+- **Windows 10 (21H2)**: Configured to meet the requirements of a production-like environment.
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+1. Create and manage a Virtual Machine in Azure:
+   - Windows 10 with 4 vCPUs for optimal performance.
+   - Configured secure access with credentials (`labuser`, `osTicketPassword1!`).
 
-<h2>Installation Steps</h2>
+2. Download and manage installation files:
+   - osTicket Installation Files.
+   - PHP 7.3.8 for scripting capabilities.
+   - MySQL 5.5.62 for database management.
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+3. Install and configure IIS with CGI support:
+   - Ensured compatibility with web-based applications.
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+4. Install and configure necessary software:
+   - PHP Manager for IIS.
+   - Rewrite Module for URL management.
+   - Visual C++ Redistributable (VC_redist.x86.exe).
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+5. Configure MySQL for database operations:
+   - Standard Configuratio
