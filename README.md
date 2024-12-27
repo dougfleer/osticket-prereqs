@@ -5,6 +5,7 @@
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
+
 <h2>Environments and Technologies Used</h2>
 
 - **Microsoft Azure**: Demonstrating cloud platform proficiency with Virtual Machines and resource management.
@@ -45,6 +46,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
+
 ### Step 1: Virtual Machine Setup
 1. Created an Azure Virtual Machine named `osticket-vm` with Windows 10 and 4 vCPUs.
 2. Accessed the VM securely using Remote Desktop.
@@ -84,13 +86,3 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 ### Step 7: Post-Installation Cleanup
 1. Removed the `setup` directory to secure the installation.
 2. Set `ost-config.php` to "Read" only to prevent unauthorized changes.
-
-<h2>Skills Demonstrated</h2>
-
-- **Cloud Resource Management**: Provisioning and managing virtual machines in Azure.
-- **Web Server Configuration**: Expertise in setting up and configuring IIS.
-- **Database Administration**: Managing MySQL databases with HeidiSQL.
-- **Software Installation and Integration**: Seamless integration of PHP and osTicket components.
-- **Problem-Solving**: Troubleshooting installation issues and ensuring system compatibility.
-
-By following this guide, you will have successfully installed and configured osTicket on a Windows 10 virtual machine. This comprehensive process showcases proficiency in cloud platforms, system administration, and application deployment.
