@@ -45,10 +45,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Installation Steps"/>
-</p>
-
 ### Step 1: Virtual Machine Setup
 1. Created an Azure Virtual Machine named `osticket-vm` with Windows 10 and 4 vCPUs.
 2. Accessed the VM securely using Remote Desktop.
@@ -96,9 +92,5 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - **Database Administration**: Managing MySQL databases with HeidiSQL.
 - **Software Installation and Integration**: Seamless integration of PHP and osTicket components.
 - **Problem-Solving**: Troubleshooting installation issues and ensuring system compatibility.
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Skills Demonstrated"/>
-</p>
 
 By following this guide, you will have successfully installed and configured osTicket on a Windows 10 virtual machine. This comprehensive process showcases proficiency in cloud platforms, system administration, and application deployment.
